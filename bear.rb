@@ -8,6 +8,9 @@ class Bear
     @bear = []
   end
   def stomach_count()
-    return @bear.length()
+    return @bear.length
+  end
+  def take(fish)
+    @fish.push(fish)
   end
 end
